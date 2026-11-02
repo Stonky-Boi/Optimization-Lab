@@ -139,7 +139,7 @@ def solve():
     for j in range(variable_count):
         optimal_value += original_objective[j] * solution[j]
 
-    print("\nOptimal solution found!")
+    print("Optimal solution found!")
     print("Iterations:", iterations)
     for j in range(variable_count):
         print(f"x{j + 1} = {solution[j]:.4f}")
